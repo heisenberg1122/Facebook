@@ -8,7 +8,7 @@ const PostForm = ({ onPostCreated }) => {
         imageUrl: ''
     });
     
-    const API_URL = 'http://localhost:8080/api/posts';
+    const API_URL = 'https://facebook-py3j.onrender.com/api/posts';
 
     const handleChange = (e) => {
         const { name, value } = e.target;
