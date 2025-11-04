@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'https://facebook-py3j.onrender.com/api/posts';
+const API_URL = 'https://facebookbackend-nvuv.onrender.com/api/posts';
 
 const EditPostForm = ({ post, onUpdateSuccess, onCancelEdit }) => {
     // Initialize form state with the current post's content and imageUrl
